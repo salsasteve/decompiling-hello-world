@@ -4,4 +4,4 @@ artifacts/*/hello
 
 # Rust build output
 src/hello/target/
-*.md
+research-outline.md

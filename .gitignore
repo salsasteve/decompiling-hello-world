@@ -1,0 +1,7 @@
+# Ignore compiled binaries but keep all other generated artifacts
+# (.s, .ll, .txt, .rs pipeline dumps stay tracked for cross-machine comparison)
+artifacts/*/hello
+
+# Rust build output
+src/hello/target/
+*.md

@@ -8,3 +8,5 @@ research-outline.md
 
 # C build output
 c/src/hello/*.o
+
+**/.DS_Store

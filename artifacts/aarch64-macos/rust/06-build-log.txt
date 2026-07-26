@@ -1,0 +1,2 @@
+   Compiling hello v0.1.0 (/Users/solz/Documents/rust/decompiling-hello-world/src/hello)
+    Finished `release` profile [optimized] target(s) in 0.29s

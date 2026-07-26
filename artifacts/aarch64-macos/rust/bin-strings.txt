@@ -1,0 +1,208 @@
+Hello, world!
+internal error: entered unreachable code
+.debug_types.dwom]
+fTentity not foundconnection resethost unreachableno storage spaceinvalid filename             at PermissionDeniedAddrNotAvailable4
+2>4>>
+>>>,.
+>>$*
+>&<6>>>
+0>>
+>>>>>>>>>>>(
+>> :"
+@>>H
+>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>
+reentrant initInvalid archive member sizeInvalid archive extended name offset
+Archive member size is too largeInvalid archive extended name lengthInvalid archive terminatorInvalid archive member headerassertion failed: match track_edge_idx {
+    LeftOrRight::Left(idx) => idx <= old_left_len,
+    LeftOrRight::Right(idx) => idx <= right_len,
+}assertion failed: new_left_len <= CAPACITYassertion failed: self.height > 0
+a formatting trait implementation returned an error when the underlying stream did not
+fatal runtime error: initialization or cleanup bug, aborting
+assertion failed: src.len() == dst.len()internal error: entered unreachable codefile name contained an unexpected NUL bytedeadlock in SIGSEGV handlerfatal runtime error: a thread received SIGSEGV while modifying its stack overflow information, aborting
+fatal runtime error: drop of the panic payload panicked, aborting
+<unnamed>__rust_end_short_backtrace__rust_begin_short_backtraces
+.debug_abbrev.dwo.debug_cu_index.debug_info.dwo.debug_line.dwo.debug_loc.dwo.debug_loclists.dwo.debug_rnglists.dwo.debug_str.dwo.debug_str_offsets.dwo.debug_tu_index
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+<unknown>fatal runtime error: stack overflow, aborting
+mid > lencalled `Result::unwrap()` on an `Err` value
+Contents/Resources/DWARF
+Once instance has previously been poisoned
+failed to create dispatch semaphore for thread synchronizationassertion failed: old_right_len + count <= CAPACITYassertion failed: old_left_len >= countassertion failed: old_left_len + count <= CAPACITYassertion failed: old_right_len >= count
+RUST_BACKTRACEpermission deniedconnection refusednetwork unreachableconnection abortednot connectedaddress in useaddress not availablenetwork downbroken pipeentity already existsoperation would blocknot a directoryis a directorydirectory not emptyread-only filesystem or storage mediumfilesystem loop or indirection limit (e.g. symlink loop)stale network file handleinvalid input parameterinvalid datatimed outwrite zeroseek on unseekable filequota exceededfile too largeresource busyexecutable file busycross-device link or renametoo many linksargument list too longoperation interruptedunsupportedunexpected end of fileout of memoryin progressother erroruncategorized error
+.debug_abbrev.debug_addr.debug_aranges.debug_info.debug_line.debug_line_str.debug_loc.debug_loclists.debug_macinfo.debug_macro.debug_ranges.debug_rnglists.debug_str.debug_str_offsets.debug_typeslock count overflow in reentrant mutexadvancing io slices beyond their lengthadvancing IoSlice beyond its lengthinternal error: entered unreachable code: empty internal node
+      
+failed to write the buffered datamust specify at least one of read, write, or append accesscreating or truncating a file requires write or append accessassertion failed: edge.height == self.height - 1Box<dyn Any>thread caused non-unwinding panic. aborting.
+stdout
+failed to write whole bufferstack backtrace:
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+use of std::thread::current() is not possible after the thread's local data has been destroyedfatal runtime error: init_current() was re-entrant, which indicates a bug in the Rust threading implementation, aborting
+fatal runtime error: the System allocator may not use TLS with destructors, aborting
+strerror_r failure
+internal error: entered unreachable code: the thread info setup logic isn't recursivefailed to generate unique thread ID: bitspace exhaustedfatal runtime error: assertion failed: signal(libc::SIGPIPE, handler) != libc::SIG_ERR, aborting
+WouldBlock
+thread name may not contain interior null bytes
+fatal runtime error: tried to drop node in intrusive list., aborting
+cannot panic during the backtrace function
+OsmessageErrorCustomerror
+ConnectionRefusedConnectionResetHostUnreachableNetworkUnreachableConnectionAbortedNotConnectedAddrInUseNetworkDownBrokenPipeAlreadyExistsNotADirectoryIsADirectoryDirectoryNotEmptyReadOnlyFilesystemFilesystemLoopStaleNetworkFileHandleInvalidInputInvalidDataWriteZeroStorageFullNotSeekableQuotaExceededFileTooLargeResourceBusyExecutableFileBusyCrossesDevicesTooManyLinksInvalidFilenameArgumentListTooLongInterruptedUnsupportedUnexpectedEofOutOfMemoryInProgressOtherUncategorized
+description() is deprecated; use Display
+deadlock
+NulErrorNotFoundTimedOutDeadlockmain
+codekindKindto_digit: invalid radix -- radix must be in the range 2 to 36 inclusive
+assertion failed: edge.height == self.node.height - 1assertion failed: src.len() == dst.len()
+assertion failed: idx < CAPACITYassertion failed: edge.height == self.height - 1
+{recursion limit reached}?`fmt::Error`s should be impossible without a `fmt::Formatter`> , internal error: entered unreachable codeCunsafe " -fn() + : punycode{}.llvm.called `Result::unwrap()` on an `Err` value0[]::::{closure:#<>& *const ; (,_false{ {  } = 0x'..= | !nullstr()i8i16i32i64isizeu8u16u32u64usizef32f64!...
+{size limit reached}`fmt::Error` from `SizeLimitedFmtAdapter` was discardedSizeLimitExhaustedErrorParseIntErrorEmptyInvalidDigitPosOverflowNegOverflow
+{invalid syntax}0123456789abcdeffor< -> shim as mut dyn  is trueboolchari128u128Zero
+extern "called `Result::unwrap()` on an `Err` valuecapacity overflowLayoutError
+0123456789ABCDEF
+ { , :  {
+),] }
+called `Option::unwrap()` on a `None` valuepanic in a destructor during cleanup==!=matchespanic in a function that cannot unwind
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+';>NO
+6=>V
+67VW
+)14:EFIJNOde
+;>fi
+./'(U
+:?EQ
+"%>?
+ #%&(38:HJLPSUVXZ\^`cefksx}
+PI73
+<dSH
+) as
+./?\]_
+)147:;=IJ]
+)14:;EFIJ^de
+):;EIW[^_de
+EIde
+INOWY^_
+FGNOXZ\^~
+tu&./
+NOZ[
+no7=?BESgu
+%_ m
+attempt to divide by zero
+attempt to calculate the remainder with a divisor of zero
+,`+*0
+!K@4
+jaUOo
+user-provided comparison function does not correctly implement a total order
+RefCell already borrowed
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/panic_abort/src/lib.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/cell/once.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sync/once.rs
+/rust/deps/object-0.37.3/src/read/archive.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/alloc/src/collections/btree/node.rs
+/rust/deps/gimli-0.32.3/src/read/line.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/num/wrapping.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/alloc/src/collections/btree/navigate.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/str/pattern.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/io/mod.rs
+failed printing to 
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/io/stdio.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/slice/sort/stable/quicksort.rs
+thread '
+) panicked at 
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs
+      [... omitted 
+ frame
+ ...]
+/rust/deps/addr2line-0.25.1/src/unit.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/alloc/src/collections/btree/map/entry.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/fs/unix.rs
+thread '
+) has overflowed its stack
+/dev/null
+5fatal runtime error: failed to initiate panic, error 
+, aborting
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/thread/id.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/sync/once/queue.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/pal/unix/sync/mutex.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/../../backtrace/src/symbolize/gimli.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/sync/thread_parking/darwin.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/path.rs
+/rust/deps/addr2line-0.25.1/src/function.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sync/reentrant_lock.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/io/io_slice/iovec.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/../../backtrace/src/symbolize/gimli/lru.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/sync/rwlock/queue.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/rt.rs
+memory allocation of 
+ bytes failed
+memory allocation of 
+G bytes failed
+skipping backtrace printing to avoid potential recursion
+aborting due to panic at 
+panicked at 
+thread panicked while processing panic. aborting.
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/slice/index.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/../../backtrace/src/symbolize/mod.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/thread/current.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/../../backtrace/src/symbolize/gimli/libs_macos.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/thread_local/destructors/list.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/io/error/unix.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/pal/unix/stack_overflow/thread_info.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/pal/unix/stack_overflow.rs
+"failed to protect the guard page: 
+!failed to allocate a guard page: 
+/failed to set up alternative stack guard page: 
+)failed to allocate an alternative stack: 
+failed to lock mutex: 
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/sys/pal/unix/mod.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/thread/thread.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/../../backtrace/src/backtrace/libunwind.rs
+ (os error 
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/io/buffered/linewritershim.rs
+"unexpected error during closedir: 
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/char/methods.rs
+/rust/deps/addr2line-0.25.1/src/line.rs
+/rust/deps/gimli-0.32.3/src/read/abbrev.rs
+/rust/deps/rustc-demangle-0.1.27/src/v0.rs
+9internal error: entered unreachable code: str::from_utf8(
+) = 
+" was expected to have 1 char, but 
+ chars were found
+/rust/deps/rustc-demangle-0.1.27/src/lib.rs
+/rust/deps/rustc-demangle-0.1.27/src/legacy.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/ops/function.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/alloc/src/raw_vec/mod.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/alloc/src/sync.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/fmt/mod.rs
+start byte index 
+& is not a char boundary; it is inside 
+ (bytes 
+ of string)
+end byte index 
+& is not a char boundary; it is inside 
+ (bytes 
+ of string)
+end byte index 
+' is out of bounds for string of length 
+byte range starts at 
+ but ends at 
+start byte index 
+' is out of bounds for string of length 
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/panicking.rs
+ index out of bounds: the len is 
+ but the index is 
+assertion `left 
+ right` failed
+  left: 
+ right: 
+assertion `left 
+ right` failed: 
+  left: 
+ right: 
+range end index 
+" out of range for slice of length 
+slice index starts at 
+ but ends at 
+range start index 
+" out of range for slice of length 
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/slice/memchr.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/unicode/printable.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/slice/sort/shared/smallsort.rs
+/rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/bstr/mod.rs

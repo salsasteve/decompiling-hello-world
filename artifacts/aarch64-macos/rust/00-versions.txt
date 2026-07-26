@@ -1,0 +1,38 @@
+### rustc --version --verbose
+rustc 1.96.0 (ac68faa20 2026-05-25)
+binary: rustc
+commit-hash: ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96
+commit-date: 2026-05-25
+host: aarch64-apple-darwin
+release: 1.96.0
+LLVM version: 22.1.2
+
+### rustup show active-toolchain
+1.96.0-aarch64-apple-darwin (default)
+
+### uname -a
+Darwin Elmans-MacBook-Pro.local 24.6.0 Darwin Kernel Version 24.6.0: Mon Jan 19 22:01:58 PST 2026; root:xnu-11417.140.69.708.3~1/RELEASE_ARM64_T6041 arm64
+
+### system_profiler SPHardwareDataType (exact chip model, core count, memory)
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: Mac16,8
+      Model Number: MX2H3LL/A
+      Chip: Apple M4 Pro
+      Total Number of Cores: 12 (8 performance and 4 efficiency)
+      Memory: 24 GB
+      System Firmware Version: 13822.81.10
+      OS Loader Version: 11881.140.96
+      Serial Number (system): JYW7F3CDW5
+      Hardware UUID: 5643D8F6-9861-5878-A4E6-A52246F29C16
+      Provisioning UDID: 00006040-000831C83AA0801C
+      Activation Lock Status: Disabled
+
+
+### sw_vers (exact macOS product name, version, build)
+ProductName:		macOS
+ProductVersion:		15.7.4
+BuildVersion:		24G517

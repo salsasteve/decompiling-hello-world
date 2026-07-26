@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1398	    584	      8	   1990	    7c6	artifacts/x86_64-linux/c/hello

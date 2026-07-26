@@ -1,0 +1,1 @@
+artifacts/x86_64-linux/c/hello: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=fcc46ebebef342bad6f7f24f2463974b394a265c, for GNU/Linux 6.1.0, not stripped

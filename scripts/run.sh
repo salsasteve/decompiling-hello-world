@@ -24,7 +24,7 @@ source "$SCRIPT_DIR/lib/platform.sh"
 
 cmd_pipeline() {
     detect_platform
-    export OUT="artifacts/$PLAT"
+    export OUT="artifacts/$PLAT/rust"
     export SRC="src/hello/src/main.rs"
     mkdir -p "$OUT"
 
@@ -37,7 +37,7 @@ cmd_pipeline() {
 
 cmd_inspect() {
     detect_platform
-    export OUT="artifacts/$PLAT"
+    export OUT="artifacts/$PLAT/rust"
     export BINARY="$OUT/hello"
 
     if [[ ! -f "$BINARY" ]]; then
@@ -60,10 +60,10 @@ cmd_inspect() {
 }
 
 cmd_clean() {
-    rm -rf artifacts/x86_64-linux/* artifacts/aarch64-macos/*
-    mkdir -p artifacts/x86_64-linux artifacts/aarch64-macos
-    touch artifacts/x86_64-linux/.gitkeep artifacts/aarch64-macos/.gitkeep
-    echo "Cleaned artifacts/ (directories kept)"
+    rm -rf artifacts/x86_64-linux/rust/* artifacts/aarch64-macos/rust/*
+    mkdir -p artifacts/x86_64-linux/rust artifacts/aarch64-macos/rust
+    touch artifacts/x86_64-linux/rust/.gitkeep artifacts/aarch64-macos/rust/.gitkeep
+    echo "Cleaned artifacts/*/rust/ (directories kept; C artifacts under c/ are untouched -- see c/scripts/run.sh clean)"
 }
 
 cmd_install_tools() {

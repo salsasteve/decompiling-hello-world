@@ -1,7 +1,10 @@
 # Ignore compiled binaries but keep all other generated artifacts
-# (.s, .ll, .txt, .rs pipeline dumps stay tracked for cross-machine comparison)
-artifacts/*/hello
+# (.s, .ll, .txt, .rs/.c pipeline dumps stay tracked for cross-machine comparison)
+artifacts/*/*/hello
 
 # Rust build output
 src/hello/target/
 research-outline.md
+
+# C build output
+c/src/hello/*.o

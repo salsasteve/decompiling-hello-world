@@ -12,6 +12,10 @@ differences visible at every stage of the compilation pipeline — from macro
 expansion down to the final machine code and linked binary. It is part of a
 larger paper on computer architecture.
 
+A sibling project doing the same comparison with C/LLVM (clang) instead of
+Rust lives alongside this one in [`c/`](c/README.md), sharing this repo's
+`artifacts/<platform>/` layout under a `c/` subdirectory.
+
 ## Requirements
 
 - `rustc` — both the stable toolchain and `nightly` (nightly is required for
@@ -113,7 +117,7 @@ stages. Each `pipeline/*.sh` script expects `OUT`, `SRC`, `TARGET`, and
 you), so export them once in your shell session first:
 
 ```sh
-export OUT=artifacts/x86_64-linux SRC=src/hello/src/main.rs \
+export OUT=artifacts/x86_64-linux/rust SRC=src/hello/src/main.rs \
        TARGET=x86_64-unknown-linux-gnu PLAT=x86_64-linux
 mkdir -p "$OUT"
 
@@ -124,7 +128,7 @@ bash scripts/pipeline/04_llvm_ir.sh  && cat "$OUT/04-ir.ll"
 bash scripts/pipeline/05_asm.sh      && cat "$OUT/05-hello.s"
 ```
 
-On macOS/AArch64, use `OUT=artifacts/aarch64-macos TARGET=aarch64-apple-darwin PLAT=aarch64-macos` instead.
+On macOS/AArch64, use `OUT=artifacts/aarch64-macos/rust TARGET=aarch64-apple-darwin PLAT=aarch64-macos` instead.
 
 ## What gets generated
 
@@ -153,10 +157,10 @@ On macOS/AArch64, use `OUT=artifacts/aarch64-macos TARGET=aarch64-apple-darwin P
 
 ## Artifacts directory layout
 
-A fully populated `artifacts/x86_64-linux/` directory looks like:
+A fully populated `artifacts/x86_64-linux/rust/` directory looks like:
 
 ```
-artifacts/x86_64-linux/
+artifacts/x86_64-linux/rust/
 ├── 00-versions.txt
 ├── 01-expanded.rs
 ├── 02-hir.rs
@@ -176,9 +180,13 @@ artifacts/x86_64-linux/
 └── bin-ldd.txt
 ```
 
-`artifacts/aarch64-macos/` mirrors this layout, substituting
+`artifacts/aarch64-macos/rust/` mirrors this layout, substituting
 `bin-loadcmds.txt`, `bin-dylibs.txt`, and `bin-pac-count.txt` for the
 Linux-specific files.
+
+`artifacts/<platform>/c/` holds the equivalent output for the sibling C/LLVM
+project under [`c/`](c/README.md) — same two platforms, same numbered-stage
+idea, different compiler.
 
 ## Key files for the paper
 

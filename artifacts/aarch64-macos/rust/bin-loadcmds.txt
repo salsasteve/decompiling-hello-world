@@ -1,4 +1,4 @@
-artifacts/aarch64-macos/hello:
+artifacts/aarch64-macos/rust/hello:
 Load command 0
       cmd LC_SEGMENT_64
   cmdsize 72

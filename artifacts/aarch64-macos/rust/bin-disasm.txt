@@ -1,5 +1,5 @@
 
-artifacts/aarch64-macos/hello:	file format mach-o arm64
+artifacts/aarch64-macos/rust/hello:	file format mach-o arm64
 
 Disassembly of section __TEXT,__text:
 

@@ -1,1 +1,1 @@
-artifacts/x86_64-linux/hello: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 6.1.0, BuildID[sha1]=ac9f3640c7a6673afad8553c94cdf14b648ffb8a, with debug_info, not stripped
+artifacts/x86_64-linux/rust/hello: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 6.1.0, BuildID[sha1]=ac9f3640c7a6673afad8553c94cdf14b648ffb8a, with debug_info, not stripped

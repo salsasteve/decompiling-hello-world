@@ -19,4 +19,4 @@ set -euo pipefail
 : "${TARGET:?TARGET not set -- run this via scripts/run.sh, not directly}"
 
 echo "[04] Emitting LLVM IR..."
-rustc --edition=2021 -Copt-level=3 -Cno-prepopulate-passes -Cpasses= --emit=llvm-ir --target="$TARGET" "$SRC" -o "$OUT/04-ir.ll"
+rustc --edition=2021 -Copt-level=3 --emit=llvm-ir --target="$TARGET" "$SRC" -o "$OUT/04-ir.ll"

@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
- 326140	  12592	   3226	 341958	  537c6	artifacts/x86_64-linux/hello
+ 326140	  12592	   3226	 341958	  537c6	artifacts/x86_64-linux/rust/hello
